@@ -37,6 +37,10 @@ a.btn svg{width:18px;height:18px;flex-shrink:0}
 .bb img{max-width:100%;max-height:32px;object-fit:contain}
 .bb.fw{grid-column:1/-1}
 .ft{text-align:center;padding:12px 14px 28px;font-size:8.5px;color:#BBB;letter-spacing:.07em;text-transform:uppercase}
+/* Forzar a que la imagen de La Pratería se vea más grande */
+.bb img[src*="prateria"] {
+    max-height: 60px !important; /* Sube este número si la quieres aún más grande */
+}
 </style>
 </head>
 <body>
